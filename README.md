@@ -1,4 +1,4 @@
-# ProXima - Real-Time Space Object Tracker <img width="40" alt="ProXima Logo" src="https://github.com/user-attachments/assets/your-logo-id-here">
+# ProXima - Proximal Orbital Object Map <img width="60" height="400" alt="Image" src="https://github.com/user-attachments/assets/ed640129-f879-4e82-8fc6-b412364b6107" />
 
 <img width="1200" alt="ProXima Screenshot" src="https://github.com/user-attachments/assets/your-screenshot-id-here">
 
@@ -21,14 +21,14 @@ Go to the project website [ here! ](https://your-vercel-link-here)
 ✅ Real-time asteroid tracking  
 ✅ Interactive orbital visualization  
 ✅ NASA API integration  
-✅ Responsive design for desktop & mobile  
+✅ Fast and Responsive Design  
 
 ---
 
 ## Tech Stack
-- **Frontend**: Next.js, TypeScript, Canvas API  
+- **Frontend**: Next.js, TypeScript, React, TailwindCSS 
 - **Backend**: Spring Boot, Java, Docker  
-- **APIs**: NASA NeoWs, TLE Satellite Data  
+- **APIs**: NASA NeoWs, TLE Data  
 - **Deployment**: Vercel (Frontend), Render (Backend)  
 
 ---
@@ -39,29 +39,12 @@ Go to the project website [ here! ](https://your-vercel-link-here)
 
 ---
 
-## Extra Info
-Since the backend is deployed on **Render free tier**, services may occasionally sleep after a period of inactivity. To manually wake them up, visit these links and allow the projects to reload:  
-
-[ -Frontend (Vercel) ](https://your-vercel-link-here)  
-[ -Backend (Render) ](https://your-render-link-here)  
-
----
-
 ## Status
 🔭 **Current Release**: Beta version  
-- Asteroid tracking is fully functional.  
+- Asteroids, Space Stations, and Space Debris tracking is fully functional.  
 - Satellite tracking is currently in development.  
 
 ---
 
-## TODO
-- [ ] Fix satellite TLE position calculations  
-- [ ] Add 3D visualization  
-- [ ] Implement WebSocket updates for live data streaming  
-- [ ] Add more NASA APIs  
-- [ ] Re-enable caching in `SpaceDataService.java` and adjust `CacheConfig.java` for optimization and reduced API calls  
-
----
-
 ## Note
-If ProXima does not appear to be working at a given time, it may be because the backend services have gone to sleep (Render free tier limitation). Reloading the Render link above should wake the services back up. If certain visualizations appear delayed, it may also be due to temporary API throttling from NASA’s endpoints.  
+If ProXima does not appear to be working at a given time, it may be because there have been too many calls to the NASA API. To Resolve this please just allow the server some time before reloading. If certain visualizations appear delayed, it may also be due to temporary API throttling from NASA’s endpoints. If these Issues persist please feel free to contact me, and I will fix them as soon as possible.
