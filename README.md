@@ -1,4 +1,4 @@
-# ProXima - Proximal Orbital Object Map <img width="60" height="400" alt="Image" src="https://github.com/user-attachments/assets/ed640129-f879-4e82-8fc6-b412364b6107" />
+# ProXima - Proximal Orbital Object Map <img width="60" height="40" alt="Image" src="https://github.com/user-attachments/assets/ed640129-f879-4e82-8fc6-b412364b6107" />
 
 <img width="1919" height="928" alt="Image" src="https://github.com/user-attachments/assets/211f9a6f-b2bd-476f-88df-dc7c4f9b902b" />
 
